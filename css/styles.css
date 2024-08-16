@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 800; */
+}
+
+/* loggin */
+.login{
+    width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.login h1{
+    text-align: end;
+    padding: 5px;
+}
+
+.login input{
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 2px solid black;
+    outline: none;
+    width: 50%;
+}
+
+.login button {
+    width: 50%;
+    padding: 5px 10px;
+    background: black;
+    color: azure;
+    font-size: medium;
+    border: 3px solid black;
+    text-align: center;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+.login button:hover{
+    background: transparent;
+    color: black;
+}
+.login h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+
+/* header */
+
+ #head{
+    background: #111;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    height: 80px;
+    
+
+
+ }
+ #head nav u li a{
+    color: white;
+    gap: 10px;
+    
+ }
+#head nav u li{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+
+  
+   
+}
+#head nav{
+   gap: 600px;
+}
+.myblog{
+    display: none;
+}
+
+
+
+
+/* header ul li {
+   display: block;
+    margin: 0 5px;
+}
+header ul li a{
+    color:white;
+    
+}
+
+.notification {
+   background: green;
+   color: azure;
+   text-align: center;
+   width: 80%;
+   margin: 30px auto;
+}
+
+.main_content{
+display: grid;
+grid-template-columns: 30% 70%;
+}
+
+
+
+
+
+.main_content .post_form{
+    width: 300px;
+    margin: 800px auto;
+    box-shadow: rgba(red, green, blue, 0.16) 0px 1px 4px;
+    padding: 30px;
+
+}
+
+.main_content .post_form input ,textarea{
+
+    width: 100px;
+    border: 1px solid #111;
+    padding: 5px 0px;
+    margin: 20px 0px;
+    
+}
+
+.main_content .post_form input button{
+    width: 100px;
+    background: #111;
+    color: #fff;
+    padding: 5px 0px;
+    border: 1px solid #111;
+    transition: 0.5s ease-in-out;
+}
+.main_content .post_form input button:hover{
+ 
+   background: transparent;
+}  */
+.my_content{
+    padding: 100px 50px;
+
+}
+
+.post_form label {
+    font-weight: 800;
+    font-size: xx-large;
+}
+.post_form input {
+    border: 2px solid black;
+    height: 40px;
+    text-align: center;
+    
+}
+.post_form ,textarea{
+    padding: 20px 40px;
+   margin-top: 10px;
+}
+.post_btn{
+    border: 2px solid black;
+    height: 40px;
+    width: 110px;
+   font-style: italic;
+   font-weight: 900;
+   font-family: "Roboto", sans-serif;
+   background: black;
+   color: white;
+   
+}
+.update_btn{
+    border: 2px solid black;
+    height: 40px;
+    width: 110px;
+   font-style: italic;
+   font-weight: 900;
+   font-family: "Roboto", sans-serif;
+   background: black;
+   color: white;
+   
+}
+.update_btn:hover{
+    background: transparent;
+    color: black;
+}
+.post_btn:hover{
+    background: transparent;
+    color: black;
+    
+}
+
+.notify{
+    background: green;
+    color: azure;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+ }
+
+ .show{
+    display: block;
+ }
+ .hide{
+    display: none;
+ }
+
+
+
+ .my_content{
+    width: 100px;
+    padding: 70px 50px;
+ }
+ .my_contennt table{
+
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: rgba(red, green, blue, alpha) 0px 1px 4px;
+    padding:30px;
+ }
+ .my_contennt table tr{
+
+    margin: 30px 0px;
+    width: 100%;
+ }
+ .my_contennt table tr button{
+   padding:5px 10px ;
+   border: 1px solid #111;
+   transition: .5s ease-in;
+   color: white;
+   cursor: pointer;
+ }
+ .my_contennt table tr button.delete{
+   background: rgba(red, green, blue, alpha);
+ }
+ .my_contennt table tr button.update{
+background: rgba(red, green, blue, alpha);
+ }
